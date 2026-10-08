@@ -57,7 +57,7 @@ export default function Header() {
               Sobre
             </Link>
             <Link
-              href="/servicos"
+              href="/como-funciona"
               className="hover:text-[#006f34] hover:font-bold"
             >
               Como funciona
@@ -129,7 +129,7 @@ export default function Header() {
             Sobre
           </Link>
 
-          <Link href="/servicos" onClick={() => setOpen(false)}>
+          <Link href="/como-funciona" onClick={() => setOpen(false)}>
             Como funciona
           </Link>
           <Link href="/informativos" onClick={() => setOpen(false)}>
@@ -141,7 +141,7 @@ export default function Header() {
 
           <Link
             href="/simulacao"
-            className="bg-[#C5A059] text-white text-center py-3 rounded-lg font-semibold mt-4"
+            className="bg-[#006f34]  text-white text-center py-3 rounded-lg font-semibold mt-4"
             onClick={() => setOpen(false)}
           >
             Apresentar pedido
