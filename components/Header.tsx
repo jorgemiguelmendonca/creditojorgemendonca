@@ -57,7 +57,7 @@ export default function Header() {
               Sobre
             </Link>
             <Link
-              href="/como-funciona"
+              href="/servicos"
               className="hover:text-[#006f34] hover:font-bold"
             >
               Como funciona
@@ -129,7 +129,7 @@ export default function Header() {
             Sobre
           </Link>
 
-          <Link href="/como-funciona" onClick={() => setOpen(false)}>
+          <Link href="/servicosa" onClick={() => setOpen(false)}>
             Como funciona
           </Link>
           <Link href="/informativos" onClick={() => setOpen(false)}>
