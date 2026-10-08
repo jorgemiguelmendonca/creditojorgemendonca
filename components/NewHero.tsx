@@ -141,7 +141,7 @@ export default function NewHero() {
             className="mt-9 animate-[heroUp_900ms_ease-out]"
           >
             <Link
-              href="/apresentar-pedido"
+              href="/simulacao"
               className="inline-flex items-center rounded-md bg-[#006f34] px-8 py-4 font-(family-name:--font-inter) text-sm  text-white transition-colors duration-300 hover:bg-[#0caf58] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#102A43]"
             >
               Apresentar pedido
