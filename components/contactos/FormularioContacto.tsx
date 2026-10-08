@@ -105,12 +105,15 @@ export default function FormularioContato() {
     if (name === "whatsapp") {
       let numbers = value.replace(/\D/g, "");
 
+      // Remove o indicativo internacional português,
+      // caso o utilizador o tenha digitado ou o campo já o contenha.
       if (numbers.startsWith("00351")) {
         numbers = numbers.slice(5);
-      } else if (numbers.startsWith("351") && numbers.length > 9) {
+      } else if (numbers.startsWith("351")) {
         numbers = numbers.slice(3);
       }
 
+      // Portugal: número nacional com 9 dígitos
       numbers = numbers.slice(0, 9);
 
       let formatted = "";
@@ -136,7 +139,6 @@ export default function FormularioContato() {
 
       return;
     }
-
     /*
     ----------------------------------------------------------
     RESTANTE DOS CAMPOS
