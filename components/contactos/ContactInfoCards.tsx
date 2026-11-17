@@ -10,8 +10,8 @@ const contactos = [
   {
     icon: MessageCircle,
     titulo: "WhatsApp",
-    valor: "+55 31 3582-8296",
-    href: "https://wa.me/553135828296?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20empréstimo.",
+    valor: "+55 31 99682-7453",
+    href: "https://wa.me/5531996827453?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20empréstimo.",
   },
   {
     icon: Clock,

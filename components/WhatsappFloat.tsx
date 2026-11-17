@@ -3,7 +3,7 @@
 import React from "react";
 
 const WhatsappFloat = () => {
-  const phone = "553135828296";
+  const phone = "5531996827453";
 
   const message = encodeURIComponent(
     "Olá! Gostaria de pedir uma simulação de crédito."

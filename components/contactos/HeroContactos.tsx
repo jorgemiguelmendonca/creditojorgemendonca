@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-const phone = "553135828296";
+const phone = "5531996827453";
 const message = encodeURIComponent(
   "Olá, gostaria de solicitar uma cotação de crédito"
 );

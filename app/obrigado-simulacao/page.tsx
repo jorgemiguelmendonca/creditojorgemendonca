@@ -46,7 +46,7 @@ export default function ObrigadoSimulacao() {
           <div className="flex gap-4 mt-8">
             <Link
               className="bg-[#006f34]  text-white font-semibold px-8 py-4 rounded-lg transition cursor-pointer"
-              href="https://wa.me/553135828296"
+              href="https://wa.me/5531996827453"
               target="_blank"
             >
               Falar com um consultor

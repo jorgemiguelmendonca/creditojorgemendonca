@@ -43,7 +43,7 @@ export default async function InformativoPage({ params }: PageProps) {
   const relacionados = informativos
     .filter(item => item.slug !== informativo.slug)
     .slice(0, 3);
-  const phone = "553135828296";
+  const phone = "5531996827453";
 
   const message = encodeURIComponent(
     "Olá! Gostaria de pedir uma simulação de crédito."
